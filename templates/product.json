@@ -38,6 +38,21 @@
           "settings": {
           }
         },
+        "icon_with_text_n3N98Q": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify:\/\/shop_images\/Shipping.png",
+            "heading_1": "<strong>Free shipping on orders above $99.<\/strong>",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/30_Days.png",
+            "heading_2": "<strong>30-Day Tryout: Not Happy? Free Returns!<\/strong>",
+            "icon_3": "truck",
+            "image_3": "shopify:\/\/shop_images\/Quality.png",
+            "heading_3": "<strong>Quality Promise. We'll make it right.<\/strong>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -94,6 +109,7 @@
         "custom_liquid_n3xePT",
         "variant_picker",
         "quantity_selector",
+        "icon_with_text_n3N98Q",
         "buy_buttons",
         "description",
         "collapsible-row-0",
