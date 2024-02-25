@@ -20,6 +20,12 @@
           "settings": {
           }
         },
+        "custom_liquid_n3xePT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"discount-announcement\">\n  <span class=\"highlight\">\n    <p>BUY 2 SAVE 15%<\/p>\n    <p>BUY 3 SAVE 20%<\/p>\n    <p>BUY 4 SAVE 25%<\/p>\n    <p>BUY 5 SAVE 30%<\/p>\n  <\/span>\n  <p>*Savings calculated automatically at checkout<\/p>\n<\/div>\n\n<style>\n  .discount-announcement {\n    font-size: 1.2rem;\n    background: #fafafa;\n    padding: 1rem;\n    border-radius: 0.8rem;\n    margin-top: 1rem;\n  }\n\n  .discount-announcement p {\n    margin: 0;\n    padding: 0;\n    line-height: 1.4;\n  }\n\n  .highlight {\n    font-weight: bold;\n    color: pink;\n    font-size: 1.4rem;\n    color: #d43e62;\n    font-weight: bold;\n  }\n<\/style>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -85,6 +91,7 @@
         "title",
         "caption",
         "price",
+        "custom_liquid_n3xePT",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
