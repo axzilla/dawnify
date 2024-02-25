@@ -25,12 +25,20 @@
             "text": "Quality Promise. We'll make it right.",
             "link": ""
           }
+        },
+        "announcement_HGwEDU": {
+          "type": "announcement",
+          "settings": {
+            "text": "Up to 30% off - Buy more, save more!",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "announcement_wACxRH",
-        "announcement_mU4Ydr"
+        "announcement_mU4Ydr",
+        "announcement_HGwEDU"
       ],
       "settings": {
         "color_scheme": "",
