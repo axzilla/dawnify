@@ -154,7 +154,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shipping.png",
-            "title": "Free Shipping",
+            "title": "<strong>Free Shipping<\/strong>",
             "text": "<p>Free standard shipping on US orders over $99.<\/p>",
             "link_label": "",
             "link": ""
@@ -164,7 +164,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/30_Days.png",
-            "title": "Try for 30 Days",
+            "title": "<strong>Try for 30 Days<\/strong>",
             "text": "<p>Sweat, squat, lift in any of our leggings for 30 days. Not in love? Return them!<\/p>",
             "link_label": "",
             "link": ""
@@ -174,8 +174,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Quality.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<strong>Column<\/strong>",
+            "text": "<p>Our kit is made for the toughest workouts. Underestimated you? We’ll sort it.<\/p>",
             "link_label": "",
             "link": ""
           }
