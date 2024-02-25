@@ -94,10 +94,7 @@
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1>
-                    {% comment %} {{ product.title | escape }} {% endcomment %}
-                    {% assign parts = product.title | split: ' - ' %}
-                    {% assign first_part = parts[0] %}
-                    {{ first_part | escape }}
+                    {{ product.title | split: ' - ' | first | escape }}
                   </h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
