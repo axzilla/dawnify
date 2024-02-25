@@ -118,14 +118,14 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "pure-fit-biker-short-honey-hug",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "pure-fit-biker-short"
           }
         }
       },
