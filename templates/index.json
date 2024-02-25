@@ -145,8 +145,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/30_Days.png",
+            "title": "<strong>30 DAYS TRYOUT<\/strong>",
+            "text": "<p>Test our leggings for 30 days. Not happy? Return them for free!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -154,8 +155,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Quality.png",
+            "title": "<strong>QUALITY PROMISE<\/strong>",
+            "text": "<p>Gear built for the toughest workouts. Not up to your challenge? We'll make it right!<\/p>",
             "link_label": "",
             "link": ""
           }
