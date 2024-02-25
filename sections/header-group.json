@@ -11,10 +11,26 @@
             "text": "Fast & Free shipping on orders above $99",
             "link": ""
           }
+        },
+        "announcement_wACxRH": {
+          "type": "announcement",
+          "settings": {
+            "text": "30 Days Tryout. Not Happy? Return!",
+            "link": ""
+          }
+        },
+        "announcement_mU4Ydr": {
+          "type": "announcement",
+          "settings": {
+            "text": "Quality Promise",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_wACxRH",
+        "announcement_mU4Ydr"
       ],
       "settings": {
         "color_scheme": "",
