@@ -180,8 +180,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/30_Days.png",
-            "title": "<strong>30 DAYS TRYOUT<\/strong>",
-            "text": "<p>Test our leggings for 30 days. Not happy? Return them for free!<\/p>",
+            "title": "<strong>30 DAY PROMISE<\/strong>",
+            "text": "<p>Love your leggings or return within 30 days. Not happy? Send them back!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -190,7 +190,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Quality.png",
-            "title": "<strong>QUALITY PROMISE<\/strong>",
+            "title": "<strong>QUALITY COMMITMENT<\/strong>",
             "text": "<p>Gear built for the toughest workouts. Not up to your challenge? We'll make it right!<\/p>",
             "link_label": "",
             "link": ""
