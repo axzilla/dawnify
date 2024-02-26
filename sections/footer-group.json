@@ -5,24 +5,32 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "<strong>Our mission<\/strong>",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "<strong>COMPANY<\/strong>",
             "menu": "footer"
           }
+        },
+        "link_list_89cNxi": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>COMPANY<\/strong>",
+            "menu": "footer"
+          }
+        },
+        "link_list_HLCpEB": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": ""
+          }
         }
       },
       "block_order": [
-        "footer-2",
-        "footer-0"
+        "footer-0",
+        "link_list_89cNxi",
+        "link_list_HLCpEB"
       ],
       "settings": {
         "color_scheme": "scheme-1",
