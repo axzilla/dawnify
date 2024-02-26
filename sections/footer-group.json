@@ -18,28 +18,11 @@
             "heading": "<strong>COMPANY<\/strong>",
             "menu": "footer"
           }
-        },
-        "link_list_ahWKmm": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>COMPANY<\/strong>",
-            "menu": "footer"
-          }
-        },
-        "image_fXkrcU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dripletic_Logo_9cea33dc-d546-4d4f-911f-0896de81e596.png",
-            "image_width": 550,
-            "alignment": ""
-          }
         }
       },
       "block_order": [
         "footer-2",
-        "footer-0",
-        "link_list_ahWKmm",
-        "image_fXkrcU"
+        "footer-0"
       ],
       "settings": {
         "color_scheme": "scheme-1",
