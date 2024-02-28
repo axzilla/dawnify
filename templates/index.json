@@ -170,8 +170,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shipping.png",
-            "title": "<strong>FREE & FAST SHIPPING<\/strong>",
-            "text": "<p>Free standard shipping on US orders over $99. Fast delivery within 5-12 days.<\/p>",
+            "title": "<strong>FREE SHIPPING<\/strong>",
+            "text": "<p>Free shipping on US orders over $99.<\/p>",
             "link_label": "",
             "link": ""
           }
