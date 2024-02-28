@@ -138,8 +138,18 @@
           </div>
         </div>
       </div>
+
       <div class="card__content">
         <div class="card__information">
+          {% comment %} LOOX {% endcomment %}
+          <div
+            class="loox-rating"
+            data-id="{{ card_product.id }}"
+            data-rating="{{ card_product.metafields.loox.avg_rating }}"
+            data-raters="{{ card_product.metafields.loox.num_reviews }}"
+          ></div>
+          {% comment %} LOOX END {% endcomment %}
+
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
