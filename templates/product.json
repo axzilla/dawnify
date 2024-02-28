@@ -87,21 +87,21 @@
           "settings": {
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "icon": "star",
+            "content": "<ul><li><strong>Figure-shaping & Butt-lifting<\/strong><\/li><li><strong>Confident & strong<\/strong><\/li><li><strong>Anti-Cellulite & Push-Up Effect<\/strong><\/li><li><strong>Quick-drying & Breathable<\/strong><\/li><li><strong>Durable<\/strong> & <strong>Versatile<\/strong><\/li><\/ul>",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "<ul><li>Nylon 80%<\/li><li>Spandex 20%<\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Features",
-            "icon": "ruler",
-            "content": "<ul><li><strong>Figure-shaping & Butt-lifting<\/strong><\/li><li><strong>Confident & strong<\/strong><\/li><li><strong>Anti-Cellulite & Push-Up Effect<\/strong><\/li><li><strong>Quick-drying & Breathable<\/strong><\/li><li><strong>Durable<\/strong> & <strong>Versatile<\/strong><\/li><\/ul>",
+            "content": "<ul><li><strong>Nylon 80%<\/strong><\/li><li><strong>Spandex 20%<\/strong><\/li><\/ul>",
             "page": ""
           }
         },
@@ -110,7 +110,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<ul><li>Wash in a gentle cycle at 30°C, inside a laundry bag and with similar colors.<\/li><li>No chemical cleaning, turn inside out for washing, and use mild detergent. Say no to fabric softener!<\/li><li>Air dry instead of using the tumble dryer and enjoy being wrinkle-free. If needed, tumble dry on a low setting, but please do not bleach or iron.<\/li><\/ul>",
+            "content": "<ul><li><strong>Wash gentle at 30°C<\/strong><\/li><li><strong>Inside a laundry bag<\/strong><\/li><li><strong>With similar colors<\/strong><\/li><li><strong>No chemical cleaning<\/strong><\/li><li><strong>Turn inside out for washing<\/strong><\/li><li><strong>Use mild detergent<\/strong><\/li><li><strong>Say no to fabric softener<\/strong><\/li><li><strong>Air dry<\/strong><\/li><li><strong>Do not bleach<\/strong><\/li><li><strong>Do not iron<\/strong><\/li><\/ul>",
             "page": ""
           }
         }
@@ -127,8 +127,8 @@
         "icon_with_text_n3N98Q",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
         "collapsible-row-2",
+        "collapsible-row-0",
         "collapsible-row-3"
       ],
       "settings": {
