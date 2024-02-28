@@ -6,9 +6,48 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_GrLRML": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hgwCaP": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to messure?",
+            "heading_size": "h2"
+          }
+        },
+        "text_AJARFc": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Chest:<\/strong> Measure around the fullest part of your chest, keeping tape firmly under your armpits and around your shoulder blades.<\/li><li><strong>Waist:<\/strong> Measure around your waist, slightly below your natural waist, where you normally wear your pants. Insert your forefinger between the tape and your body to allow ease in fit.<\/li><li><strong>Hip:<\/strong> Measure around the fullest part of your hips, inserting your forefinger between the tape and your hip to allow ease in fit.<\/li><li><strong>Inseam:<\/strong> Measure a similar pant that fits you well. Measure along the inseam, from the crotch seam to the bottom of the hem.<\/li><li><strong>*Hint:<\/strong> For the most accurate results, measure yourself in your underwear.<\/li><\/ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hgwCaP",
+        "text_AJARFc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/size-guide-PC.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_GrLRML"
   ]
 }
