@@ -85,7 +85,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "",
+            "content": "<ul><li>Nylon 80%<\/li><li>Spandex 20%<\/li><\/ul>",
             "page": ""
           }
         },
@@ -103,7 +103,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p>Wash in a gentle cycle at 30°C, inside a laundry bag and with similar colors.<\/p><p>No chemical cleaning, turn inside out for washing, and use mild detergent. Say no to fabric softener!<\/p><p>Air dry instead of using the tumble dryer and enjoy being wrinkle-free. If needed, tumble dry on a low setting, but please do not bleach or iron.<\/p>",
+            "content": "<ul><li>Wash in a gentle cycle at 30°C, inside a laundry bag and with similar colors.<\/li><li>No chemical cleaning, turn inside out for washing, and use mild detergent. Say no to fabric softener!<\/li><li>Air dry instead of using the tumble dryer and enjoy being wrinkle-free. If needed, tumble dry on a low setting, but please do not bleach or iron.<\/li><\/ul>",
             "page": ""
           }
         }
