@@ -66,6 +66,7 @@
   {%- endif -%}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
@@ -131,6 +132,7 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
+
               {%- when 'inventory' -%}
                 <p
                   class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
@@ -186,6 +188,7 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
+
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
@@ -204,6 +207,62 @@
                 </p>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
+
+              {%- when 'selected_collection' -%}
+                {% if block.settings.selected_collection %}
+                  {% assign collection = collections | where: 'handle', block.settings.selected_collection | first %}
+                  {% if collection %}
+                    <style>
+                      .products-grid {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                      }
+                      .product-item {
+                        flex: 1 1 24%;
+                        max-width: 24%;
+                      }
+                      .product-image {
+                        width: 100%;
+                        padding-top: 125%;
+                        position: relative;
+                        background-color: #f4f4f4;
+                      }
+                      .product-image img {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                      }
+                      .product-item p {
+                        text-align: center;
+                      }
+                    </style>
+                    <div class="products-grid">
+                      {% for product in collection.products %}
+                        <div class="product-item">
+                          <a href="{{ product.url }}">
+                            <div class="product-image">
+                              <img
+                                src="{{ product.images[0] | image_url: width: 800, height: 1000 }}"
+                                {% comment %} alt="{{ product.title | escape }}" {% endcomment %}
+                                height="auto"
+                                width="auto"
+                              >
+                            </div>
+                          </a>
+                        </div>
+                      {% endfor %}
+                    </div>
+                  {% else %}
+                    <p>Die ausgewählte Kollektion ist nicht vorhanden oder hat keine Produkte.</p>
+                  {% endif %}
+                {% else %}
+                  <p>Keine Kollektion ausgewählt.</p>
+                {% endif %}
+
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -785,6 +844,17 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "selected_collection",
+      "name": "Custom Text Block",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "selected_collection",
+          "label": "Select a collection"
+        }
+      ]
     },
     {
       "type": "text",
