@@ -25,12 +25,21 @@
             "heading": "",
             "menu": ""
           }
+        },
+        "image_U6Tprj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dripletic_Logo_9cea33dc-d546-4d4f-911f-0896de81e596.png",
+            "image_width": 200,
+            "alignment": ""
+          }
         }
       },
       "block_order": [
         "footer-0",
         "link_list_89cNxi",
-        "link_list_HLCpEB"
+        "link_list_HLCpEB",
+        "image_U6Tprj"
       ],
       "settings": {
         "color_scheme": "scheme-4",
