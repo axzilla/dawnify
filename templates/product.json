@@ -48,6 +48,13 @@
             "swatch_shape": "circle"
           }
         },
+        "popup_MzteLL": {
+          "type": "popup",
+          "settings": {
+            "text": "SIZE GUIDE",
+            "page": "size-guide"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -115,6 +122,7 @@
         "price",
         "custom_liquid_n3xePT",
         "variant_picker",
+        "popup_MzteLL",
         "quantity_selector",
         "icon_with_text_n3N98Q",
         "buy_buttons",
