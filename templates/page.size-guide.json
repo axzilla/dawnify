@@ -23,20 +23,11 @@
             "text": "<p><strong>Chest:<\/strong> Measure around the fullest part of your chest, keeping tape firmly under your armpits and around your shoulder blades.<\/p><p><strong>Waist:<\/strong> Measure around your waist, slightly below your natural waist, where you normally wear your pants. Insert your forefinger between the tape and your body to allow ease in fit.<\/p><p><strong>Hip:<\/strong> Measure around the fullest part of your hips, inserting your forefinger between the tape and your hip to allow ease in fit.<\/p><p><strong>Inseam:<\/strong> Measure a similar pant that fits you well. Measure along the inseam, from the crotch seam to the bottom of the hem.<\/p><p><strong>*Hint:<\/strong> For the most accurate results, measure yourself in your underwear.<\/p>",
             "text_style": "body"
           }
-        },
-        "button_Pyn7kF": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_7ziiKm",
-        "text_gbzgHw",
-        "button_Pyn7kF"
+        "text_gbzgHw"
       ],
       "custom_css": [
 
